@@ -1,0 +1,13 @@
+# Abre terminal en la carpeta del proyecto descomprimido
+cd path/to/mi-ruta-app
+
+# Inicializa Git
+git init
+git add .
+git commit -m "Mi Ruta - Proyecto inicial"
+
+# Agrega tu repo remoto
+git remote add origin https://github.com/hanni270202/mi-ruta.git
+
+# Sube el código
+git push -u origin main
